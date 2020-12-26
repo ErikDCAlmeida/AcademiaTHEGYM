@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <title>The Gym</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".barrasMenu").addEventListener("click", function(){
+                if(document.querySelector(".menu nav").style.display == 'flex'){
+                    document.querySelector(".menu nav").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav").style.display = 'flex';
+                }
+            })
+        };
+    </script>
+</head>
+<body>
+    
+    <header>
+        <div class="container containerRecursivo">
+
+            <div class="logo">
+                <img src="./complements/logo.png" alt="logo">
+            </div>
+
+            <div class="menu">
+                <nav aria-label="Site menu">
+                    <ul>
+                        <li><a href="" id="selected">HOME</a></li>
+                        <li><a href="#loja">LOJA</a></li>
+                        <li><a href="#planos">PLANOS</a></li>
+                        <li><a href="#dicas">DICAS</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                        <li><a href="#newsletter">NEWSLETTER</a></li>
+                        <li><a href="#ajuda">AJUDA</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                    </ul>
+                </nav>
+                <div class="barrasMenu">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="sliders">
+                <div class="slide"> 
+                    <div class="slideArea" style="margin-left: 0;">
+                        <div class="tituloBanner">THE GYM</div>
+                        <div class="descBanner">A melhor e mais completa academia da região!</div>
+                        <div class="imgSlideLogo">
+                            <img src="./complements/logo.png" alt="">
+                        </div>
+                        <div class="links">
+                            <a href="">CONTATO</a>
+                            <a href="">LOCALIZAÇÃO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide"> 
+                    2..
+                </div>
+                <div class="slide"> 
+                    3..
+                </div>
+            </div>
+            <div class="slidePointers">
+                <div class="pointer active"></div>
+                <div class="pointer"></div>
+                <div class="pointer"></div>
+            </div>
+        </section>
+
+        <section class="default brancoPreto" id="loja">
+            <div class="sectionTitulo">LOJA</div>
+            <div class="sectionDesc">Temos os mais diversos produtos, desde suplementos até roupas e pesos de academia.</div>
+            <div class="sectionCorpo">
+                <div class="sectionLoja">
+                    <div class="menuLoja">
+                        <nav aria-label="Related links">
+                            <ul>
+                                <li id="menuLojaActived">Suplementos</li>
+                                <li>Camisetas</li>
+                                <li>Calças</li>
+                                <li>Calçados</li>
+                                <li>Acessórios</li>
+                                <li>Pesos</li>
+                                <li>Equipamentos</li>
+                            </ul>
+                        </nav>
+                        <div class="tabelaMenuRecursivoLoja">
+                            <div class="celulaTabelaRecursiva" id="tbRecurActived">Suplementos</div>
+                            <div class="celulaTabelaRecursiva">Camisetas</div>
+                            <div class="celulaTabelaRecursiva">Calças</div>
+                            <div class="celulaTabelaRecursiva">Calçados</div>
+                            <div class="celulaTabelaRecursiva">Acessórios</div>
+                            <div class="celulaTabelaRecursiva">Pesos</div>
+                            <div class="celulaTabelaRecursiva">Equipamentos</div>
+                        </div>
+                    </div>
+                    <div class="itemsMenu">
+                        <div class="items">
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>WHEY</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/whey.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>CREATINA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/creatina.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>BCAA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/bcaa.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>WHEY</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/whey.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>CREATINA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/creatina.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>BCAA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/bcaa.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>WHEY</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/whey.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>CREATINA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/creatina.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>BCAA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/bcaa.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>WHEY</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/whey.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>CREATINA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/creatina.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>BCAA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/bcaa.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>WHEY</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/whey.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>CREATINA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/creatina.png" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="caracItem">
+                                    <div class="conteudoItem">
+                                        <h4>BCAA</h4>
+                                        <h2>R$ 000.00</h2>
+                                    </div>
+                                    <img src="./complements/bcaa.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="">Mais Itens</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default pretoVermelho" id="planos">
+            <div class="sectionTitulo">PLANOS</div>
+            <div class="sectionDesc">Escolha o que mais lhe agrada e faça parte dessa equipe gigante!</div>
+            <div class="sectionCorpo cadastroBG">
+                <div class="bgCadastro">
+                    <div class="cadastroSimples">
+                        <div class="tituloCadastro">
+                            <div>PADRÃO</div>
+                            <img src="./assets/image/halter.png" alt="">
+                        </div>
+                        <div class="linhaCadastro"></div>
+                        <div class="vantagem">
+                            <img src="./assets/image/correct.png" alt="">
+                            <div>descontos</div>
+                        </div>
+                        <div class="vantagem">
+                            <img src="./assets/image/correct.png" alt="">
+                            <div>dicas rápidas</div>
+                        </div>
+                        <div class="vantagem">
+                            <img src="./assets/image/correct.png" alt="">
+                            <div>loja simples</div>
+                        </div>
+                        <div class="vantagem">
+                            <img src="./assets/image/incorrect.png" alt="">
+                            <div>Dicas exclusivas</div>
+                        </div>
+                        <div class="vantagem">
+                            <img src="./assets/image/incorrect.png" alt="">
+                            <div>Loja premium</div>
+                        </div>                        
+                        <a href="" class="botaoContrato">CONTRATAR</a>
+                    </div>
+                    <div class="cadastroVip">
+                        <div class="tituloCadastro">
+                            <div>VIP</div>
+                            <img src="./assets/image/coroa.png" alt="">
+                        </div>
+                        <div class="linhaCadastro"></div>
+                        <div class="vantagem">
+                            <img src="./assets/image/correct.png" alt="">
+                            <div>descontos</div>
+                        </div>
+                        <div class="vantagem">
+                            <img src="./assets/image/correct.png" alt="">
+                            <div>dicas rápidas</div>
+                        </div>
+                        <div class="vantagem">
+                            <img src="./assets/image/correct.png" alt="">
+                            <div>loja simples</div>
+                        </div>
+                        <div class="vantagem">
+                            <img src="./assets/image/correct.png" alt="">
+                            <div>Dicas exclusivas</div>
+                        </div>
+                        <div class="vantagem">
+                            <img src="./assets/image/correct.png" alt="">
+                            <div>Loja premium</div>
+                        </div>
+                        <a href="" class="botaoContrato">CONTRATAR</a>
+                    </div>
+                </div>                
+            </div>
+        </section>
+
+        <section class="default brancoPreto" id="dicas">
+            <div class="sectionTitulo">DICAS</div>
+            <div class="sectionDesc">Aqui temos dicas de alimentação, suplementação e treinos. Tudo que é preciso para você ficar cada vez mais forte e saudável!</div>
+            <div class="sectionCorpo">
+                <div class="bgDicas">
+                    <div class="dica">
+                        <div class="topDica">
+                            <img src="./assets/image/alimentacao.png" alt="">
+                            <div class="tituloDica">alimentação</div>
+                            <div class="barraDica"></div>
+                        </div>
+                        <div class="corpoDica">
+                            <ul>
+                                <li>Carboidratos</li>
+                                <li>Verduras e Legumes</li>
+                                <li>Frutas</li>
+                                <li>Carnes e Ovos</li>
+                                <li>Leite e derivados</li>
+                                <li>e muito mais!</li>
+                            </ul>
+                        </div>
+                        <a href="">visualizar</a>
+                    </div>
+                    <div class="dica">
+                        <div class="topDica">
+                            <img src="./assets/image/treino.png" alt="">
+                            <div class="tituloDica">treino</div>
+                            <div class="barraDica"></div>
+                        </div>
+                        <div class="corpoDica">
+                            <ul>
+                                <li>Bíceps</li>
+                                <li>Tríceps</li>
+                                <li>Peito</li>
+                                <li>Costas</li>
+                                <li>Pernas</li>
+                                <li>e muito mais!</li>
+                            </ul>
+                        </div>
+                        <a href="">visualizar</a>
+                    </div>
+                    <div class="dica">
+                        <div class="topDica">
+                            <img src="./assets/image/suplementacao.png" alt="">
+                            <div class="tituloDica">suplementação</div>
+                            <div class="barraDica"></div>
+                        </div>
+                        <div class="corpoDica">
+                            <ul>
+                                <li>Suplementos Hipercalóricos</li>
+                                <li>Suplementos Proteico</li>
+                                <li>Suplementos Termogênicos</li>
+                            </ul>
+                        </div>
+                        <a href="">visualizar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default pretoVermelho" id="contato">
+            <div class="sectionTitulo">CONTATO</div>
+            <div class="sectionDesc">Entre em contato conosco para tirar todas as suas dúvidas.</div>
+            <div class="sectionCorpo">
+                <div class="contatos">
+                    <div class="bgContato wpp">
+                        <div class="contato whatsapp">
+                            <img src="./assets/image/wppIcon.png" alt="wpp">
+                            <div class="descContato">Nos contate adicionando o número oficial abaixo ou então clicando no botão para iniciar uma conversa no Whatsapp.</div>
+                            <div class="contatoUser">+55 00 0000-0000</div>
+                            <a href="" class="botaoWpp">entrar em contato</a>
+                        </div>
+                    </div>
+                    <div class="bgContato insta">
+                        <div class="contato instagram">
+                            <img src="./assets/image/instaIcon.png" alt="insta">
+                            <div class="descContato">Nos procure pelo nosso Instagram oficial ou então clique no botão abaixo para abrir diretamente no Direct. </div>
+                            <div class="contatoUser">@thegymcademyofficial</div>
+                            <a href="" class="botaoInsta">entrar em contato</a>
+                        </div>
+                    </div>
+                    <div class="bgContato email">
+                        <div class="contato email">
+                            <img src="./assets/image/emailIcon.png" alt="email">
+                            <div class="descContato">Mande uma mensagem pelo E-mail oficial ou então clique no botão para nos contatar diretamente do nosso site. </div>
+                            <div class="contatoUser">thegymacademy@official.com</div>
+                            <a href="" class="botaoEmail">entrar em contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default brancoPreto" id="localizacao">
+            <div class="sectionTitulo">LOCALIZAÇÃO</div>
+            <div class="sectionDesc">Aqui você encontra nossa localização e os outros tipos de meio de comunicação.</div>
+            <div class="sectionCorpo">
+                <div class="bgLocalizacao">
+                    <div class="mapaLoc">
+                        <div class="bgMapaLoc">
+                            <div class="conteudosMapLoc">
+                                <div class="conteudoLoc">
+                                    <img src="./assets/image/emailIconLoc.png" alt="">
+                                    <div class="stringLoc">Fax completo da THE GYM.</div>
+                                </div>
+                                <div class="conteudoLoc">
+                                    <img src="./assets/image/localizacaoIcon.png" alt="">
+                                    <div class="stringLoc">Local completo da THE GYM.</div>
+                                </div>
+                                <div class="conteudoLoc">
+                                    <img src="./assets/image/telefoneIcon.png" alt="">
+                                    <div class="stringLoc">Telefone completo da THE GYM.</div>
+                                </div>
+                                <div class="conteudoLoc">
+                                    <img src="./assets/image/arrobaIcon.png" alt="">
+                                    <div class="stringLoc">E-mail completo da THE GYM.</div>
+                                </div>
+                                <div class="conteudoLoc">
+                                    <img src="./assets/image/siteIcon.png" alt="">
+                                    <div class="stringLoc">Site completo da THE GYM.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default pretoVermelho" id="newsletter">
+            <div class="sectionTitulo">NEWSLETTER</div>
+            <div class="sectionDesc">Receba dicas e notícias do mundo bodybuilder diretamente no seu meio de comunicação preferido.</div>
+            <div class="sectionCorpo">
+                <div class="bgNews">
+                    <div class="newsInfo">
+                        <input type="email" name="email" placeholder="Insira o e-mail aqui!">
+                        <img src="./assets/image/emailIconNews.png" alt="email">
+                    </div>
+                    <a href="">receber nóticias</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="default brancoPreto" id="ajuda">
+            <div class="sectionTitulo">AJUDA</div>
+            <div class="sectionDesc">Perguntas e respostas pré-feitas para você tirar dúvidas rápidas e diretas.</div>
+            <div class="sectionCorpo">
+                <div class="sectionAjuda">
+                    <div class="tabelaAjuda">
+                        <div class="topoTabela">
+                            <div class="tituloPergunta">
+                                <img src="./assets/image/perguntaIcon.png" alt="">
+                                <span>Pergunta</span>
+                            </div>
+                            <div class="tituloResposta">
+                                <img src="./assets/image/infoIcon.png" alt="">
+                                <span>Resposta</span>
+                            </div>
+                        </div>
+                        <div class="corpoTabela">
+                            <div class="linha">
+                                <div class="pergunta">
+                                    <img src="./assets/image/perguntaIcon.png" alt="">
+                                    <div class="textoPergunta">O que são suplementos alimentares?</div>
+                                </div>
+                                <div class="resposta">
+                                    <img src="./assets/image/infoIcon.png" alt="">
+                                    <div class="textoResposta">Os suplementos alimentares são substâncias químicas produzidas especialmente para complementar a alimentação.</div>
+                                </div>
+                            </div>
+                            <div class="linha">
+                                <div class="pergunta">
+                                    <img src="./assets/image/perguntaIcon.png" alt="">
+                                    <div class="textoPergunta">O que é treino físico?</div>
+                                </div>
+                                <div class="resposta">
+                                    <img src="./assets/image/infoIcon.png" alt="">
+                                    <div class="textoResposta">O treinamento físico é uma importante área de atuação profissional da Educação Física e do Esporte. Ela tem por objetivo precípuo, a melhoria do desempenho físico-esportivo através da aplicação de um processo organizado e sistemático composto por exercícios físicos.</div>
+                                </div>
+                            </div>
+                            <div class="linha">
+                                <div class="pergunta">
+                                    <img src="./assets/image/perguntaIcon.png" alt="">
+                                    <div class="textoPergunta">O que é academia?</div>
+                                </div>
+                                <div class="resposta">
+                                    <img src="./assets/image/infoIcon.png" alt="">
+                                    <div class="textoResposta">O termo academia se refere aos espaços principalmente criados para realizar diversos tipos de atividade física. Ao mesmo tempo, uma academia pode englobar diversas atividades, e em geral, contar com aparelhos de aeróbica e de musculação tais como pesos, halteres, esteiras, entre outros.</div>
+                                </div>
+                            </div>
+                            <div class="linha">
+                                <div class="pergunta">
+                                    <img src="./assets/image/perguntaIcon.png" alt="">
+                                    <div class="textoPergunta">O que é boa alimentação?</div>
+                                </div>
+                                <div class="resposta">
+                                    <img src="./assets/image/infoIcon.png" alt="">
+                                    <div class="textoResposta">Uma alimentação saudável é uma alimentação balanceada, ou seja, que tenha variedade de alimentos e seja realizada de forma moderada e equilibrada, qualitativa e quantitativamente. Uma alimentação saudável é essencial para o bem-estar físico e mental do indivíduo.</div>
+                                </div>
+                            </div>
+                            <div class="linha">
+                                <div class="pergunta">
+                                    <img src="./assets/image/perguntaIcon.png" alt="">
+                                    <div class="textoPergunta">Como ganhar massa muscular?</div>
+                                </div>
+                                <div class="resposta">
+                                    <img src="./assets/image/infoIcon.png" alt="">
+                                    <div class="textoResposta">Para ganhar massa muscular, é importante fazer atividade física de forma regular e seguindo as orientações do treinador, além de seguir uma alimentação adequada ao objetivo. É importante também dar um tempo paro músculo descansar para que possa crescer.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="">Ver mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="default pretoVermelho" id="sobre">
+            <div class="sectionTitulo">SOBRE</div>
+            <div class="sectionDesc">Aqui contamos um pouco de quem somos e como surgimos.</div>
+            <div class="sectionCorpo">
+                <div class="bgSobre">
+                    <div class="campoTXTAcademia">
+                        <div class="txtAcademia">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eum voluptatum illo nam molestias. Beatae numquam incidunt qui animi corporis aut eaque voluptatum dignissimos, voluptatem vel quia cumque aspernatur? Odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem expedita dolore quod beatae sint animi eos dolorem porro delectus, rerum distinctio veritatis saepe molestiae numquam ea a magnam quasi voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, dignissimos et rerum, quod culpa labore quaerat, voluptatum odit nesciunt molestiae fugiat. Alias animi laborum atque dolores harum at qui ab?</div>
+                        <div class="siteAcademia">@thegymacademyofficial</div>
+                    </div>
+                    <div class="campoIMGAcademia">
+                        <div class="areaImgAcademia">
+                            <div class="bgEscuroIMG">
+                                <img src="./complements/logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
