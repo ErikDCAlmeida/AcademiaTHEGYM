@@ -995,7 +995,24 @@ CSS  DE ÁREAS ESPECÍFICAS.====================================================
     width: 200px;
 }
 
+.copy{
+    padding: 10px 5px;
+    font-weight: 700;
+    font-size: 13px;
+    display: block;
+    align-items: center;
+}
 
+.copy a{
+    margin-left: 1px;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(255, 0, 0, 1);
+}
+
+.copy a:hover{
+    border-bottom: 2px solid rgba(255, 0, 0, 1);
+}
 
 
 /*=======================================RESPONSIVIDADE=======================================*/
