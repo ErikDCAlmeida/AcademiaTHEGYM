@@ -92,7 +92,7 @@ header{
 
 
 .banner{
-    height: calc(100vh - 110px);
+    height: 900px;
     background-color: rgb(54, 52, 52);
     background-image: url("../image/bg.jpg");
     background-size: cover;
